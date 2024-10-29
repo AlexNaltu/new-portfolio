@@ -101,3 +101,24 @@ export const frameworks = [
     image: "/icons/Next.png",
   },
 ];
+
+export const projects = [
+  {
+    title: "AlxnStore",
+    href: "https://alxnstore-nextjs-sanitycms.vercel.app/",
+    description:
+      "An E-Commerce Store for selling clothes made with Next.Js, React, Tailwind CSS and Sanity.io",
+  },
+  {
+    title: "MyAnimeNews",
+    href: "https://anime-website-lac.vercel.app/",
+    description:
+      "A Blog for Anime News made with Next.Js, React, Tailwind CSS and Sanity.io",
+  },
+  {
+    title: "Adelin Visuals Studio",
+    href: "https://www.adelinvisuals.art/",
+    description:
+      "Photography Portfolio made with Next.Js, React and Tailwind CSS",
+  },
+];
