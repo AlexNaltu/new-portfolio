@@ -14,7 +14,6 @@ import Marquee from "../ui/marquee";
 
 const firstRow = services.slice(0, services.length / 2);
 const secondRow = services.slice(services.length / 2);
-console.log(firstRow);
 
 const ReviewCard = ({ service }: { service: string }) => {
   return (
@@ -39,7 +38,7 @@ const ReviewCard = ({ service }: { service: string }) => {
 
 const Services = () => {
   return (
-    <div className="pt-5">
+    <div>
       <Card className="p-4">
         <CardHeader>
           <CardTitle className="flex gap-2 items-center font-black text-xl">
