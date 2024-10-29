@@ -16,7 +16,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="w-fit">
+    <div>
       <Card className="p-4">
         <div className="flex">
           <CardHeader>
