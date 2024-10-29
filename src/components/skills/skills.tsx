@@ -11,7 +11,7 @@ import { SiHyperskill } from "react-icons/si";
 
 const Skills = () => {
   return (
-    <div className="mt-4">
+    <div className="w-full">
       <Card className="p-4">
         <CardHeader>
           <CardTitle className="font-black text-xl flex items-center gap-2">
