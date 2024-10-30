@@ -3,6 +3,7 @@ import Link from "next/link";
 import { MdBusinessCenter } from "react-icons/md";
 import { Button } from "../ui/button";
 import { BsPersonLinesFill } from "react-icons/bs";
+import Contact from "../contact/contact";
 
 const Collaboration = () => {
   return (
@@ -17,11 +18,7 @@ const Collaboration = () => {
             Building Success Through Collaboration
           </p>
           <div className="flex flex-col gap-2">
-            <Link href="mailto:naltuok@gmail.com">
-              <Button className="w-full bg-tertiary text-black hover:text-white">
-                <BsPersonLinesFill size={20} /> Contact Me
-              </Button>
-            </Link>
+            <Contact />
             <Link href="/portfolio.pdf" download="Portfolio" target="_blank">
               <Button className="w-full bg-[#151414]">Download CV</Button>
             </Link>
