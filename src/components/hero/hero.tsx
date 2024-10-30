@@ -11,6 +11,7 @@ import { Button } from "../ui/button";
 import { BsPersonLinesFill } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import Link from "next/link";
+import Contact from "../contact/contact";
 
 const Hero = () => {
   return (
@@ -49,11 +50,7 @@ const Hero = () => {
           ))}
         </CardFooter>
         <div className="flex gap-3 my-4">
-          <Link href="mailto:naltuok@gmail.com" className=" w-full">
-            <Button className="bg-tertiary text-black w-full hover:bg-black hover:text-white transition-all duration-200 ease-linear">
-              <BsPersonLinesFill size={20} /> Contact Me
-            </Button>
-          </Link>
+          <Contact />
           <Link
             href="https://github.com/AlexNaltu"
             target="_blank"
