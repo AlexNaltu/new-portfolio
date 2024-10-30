@@ -22,7 +22,7 @@ const Collaboration = () => {
                 <BsPersonLinesFill size={20} /> Contact Me
               </Button>
             </Link>
-            <Link href="/portfolio.pdf" download="Portfolio">
+            <Link href="/portfolio.pdf" download="Portfolio" target="_blank">
               <Button className="w-full bg-[#151414]">Download CV</Button>
             </Link>
           </div>
