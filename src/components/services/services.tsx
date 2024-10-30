@@ -1,14 +1,6 @@
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { services } from "@/lib/constants";
 import { cn } from "@/lib/utils";
-import Image from "next/image";
 import { MdMiscellaneousServices } from "react-icons/md";
 import Marquee from "../ui/marquee";
 

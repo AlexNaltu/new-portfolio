@@ -1,11 +1,4 @@
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import Link from "next/link";
 import { MdBusinessCenter } from "react-icons/md";
 import { Button } from "../ui/button";
@@ -19,7 +12,7 @@ const Collaboration = () => {
           <MdBusinessCenter size={40} className="text-tertiary mx-auto " />
         </CardHeader>
         <CardContent>
-          <h1 className="font-black">Let's Collaborate</h1>
+          <h1 className="font-black">Let &apos; s Collaborate</h1>
           <p className="mb-5 text-xs text-slate-300">
             Building Success Through Collaboration
           </p>
