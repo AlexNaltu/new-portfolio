@@ -8,7 +8,6 @@ import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 import { heroInfo } from "@/lib/constants";
 import { Button } from "../ui/button";
-import { BsPersonLinesFill } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import Link from "next/link";
 import Contact from "../contact/contact";

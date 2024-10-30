@@ -2,7 +2,6 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import Link from "next/link";
 import { MdBusinessCenter } from "react-icons/md";
 import { Button } from "../ui/button";
-import { BsPersonLinesFill } from "react-icons/bs";
 import Contact from "../contact/contact";
 
 const Collaboration = () => {

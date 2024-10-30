@@ -22,6 +22,7 @@ const userSchema = z.object({
 });
 
 const Contact = () => {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const ref: any = useRef();
   const router = useRouter();
   const {
@@ -30,7 +31,7 @@ const Contact = () => {
     formState: { errors },
   } = useForm({ resolver: zodResolver(userSchema) });
 
-  const onSubmit = (data: any) => {
+  const onSubmit = () => {
     emailjs
       .sendForm(
         "service_75u2gjj",
