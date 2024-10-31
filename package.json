@@ -8,8 +8,10 @@
     "start": "next start",
     "lint": "next lint"
   },
-  "peerDependencies": {
-    "react": "^16.x || ^17.x || ^18.x || ^19.x"
+  "overrides": {
+    "@radix-ui/react-icons": {
+      "react": "$react"
+    }
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
